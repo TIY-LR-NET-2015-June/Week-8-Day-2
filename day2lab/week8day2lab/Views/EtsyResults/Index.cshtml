@@ -11,104 +11,21 @@
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.listing_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.state)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.user_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.category_id)
-        </th>
+       
+       
         <th>
             @Html.DisplayNameFor(model => model.title)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.description)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.creation_tsz)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ending_tsz)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.original_creation_tsz)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.last_modified_tsz)
-        </th>
+       
+      
         <th>
             @Html.DisplayNameFor(model => model.price)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.currency_code)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.quantity)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.shop_section_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.state_tsz)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.url)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.views)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.num_favorers)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.processing_min)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.processing_max)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.who_made)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.is_supply)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.when_made)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.item_dimensions_unit)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.is_private)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.non_taxable)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.is_customizable)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.is_digital)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.file_data)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.language)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.has_variations)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.taxonomy_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.used_manufacturer)
         </th>
         <th></th>
     </tr>
@@ -116,34 +33,10 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.listing_id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.state)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.user_id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.category_id)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.title)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.creation_tsz)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ending_tsz)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.original_creation_tsz)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.last_modified_tsz)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.price)
@@ -152,73 +45,12 @@
             @Html.DisplayFor(modelItem => item.currency_code)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.quantity)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.shop_section_id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.state_tsz)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.url)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.views)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.num_favorers)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.processing_min)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.processing_max)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.who_made)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_supply)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.when_made)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.item_dimensions_unit)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_private)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.non_taxable)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_customizable)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_digital)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.file_data)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.language)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.has_variations)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.taxonomy_id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.used_manufacturer)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
+       
+       <td>
+           <a href="@item.url" target="_blank"><img src="@item.MainImage.url_75x75"/></a>
+       </td>
     </tr>
 }
 
